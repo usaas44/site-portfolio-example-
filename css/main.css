@@ -66,3 +66,48 @@ body {
     top: 2px;
 }
 
+/* Section one*/
+
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 249px;
+    padding-top: 254px;
+   
+    
+}
+
+.hero__title {
+    text-align: center;
+    color: rgba(227, 228, 230, 0.55);
+    font-size: 53px;
+    font-weight: 200;
+    line-height: 80px;
+    letter-spacing: -0.02em;
+    text-align: center;
+     
+}
+
+.hero__title span {
+    
+    color: white;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: -0.02em;
+    text-align: center;
+   
+}
+
+.arrow__down__img {
+    flex-direction: column;
+}
+
+.arrow__down:active {
+    position: relative;
+    top: 3px;
+}
+.
