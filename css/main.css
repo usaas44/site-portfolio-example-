@@ -76,8 +76,8 @@ body {
     align-items: center;
     row-gap: 249px;
     padding-top: 254px;
-   
-    
+
+
 }
 
 .hero__title {
@@ -87,27 +87,62 @@ body {
     font-weight: 200;
     line-height: 80px;
     letter-spacing: -0.02em;
-    text-align: center;
-     
+   
+
 }
 
 .hero__title span {
-    
+
     color: white;
     font-size: 56px;
     font-weight: 600;
     line-height: 84px;
     letter-spacing: -0.02em;
     text-align: center;
-   
+
 }
 
 .arrow__down__img {
-    flex-direction: column;
+    padding-bottom: 137px;
 }
 
 .arrow__down:active {
     position: relative;
     top: 3px;
 }
-.
+
+
+/* Section two */
+
+.clients {
+    padding-bottom: 228px;
+}
+
+.clients .container {
+    display: block;
+}
+
+.clients__logo {
+    display: flex;
+    column-gap: 135px;
+}
+
+.clients___text {
+    padding-bottom: 96px;
+}
+
+.clients___txt {
+    text-align: left;
+    color: rgba(227, 228, 230, 0.55);
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 60px;
+}
+
+.clients___txt span {
+    text-align: left;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+}
