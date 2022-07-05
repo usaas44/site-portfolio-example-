@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    max-width: 1245px;
+    max-width: 1445px;
     margin: 0px auto;
     padding: 0 15px;
     color: aliceblue;
@@ -25,11 +25,20 @@ body {
     padding: 35px 0;
 }
 
-.container {
+.header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+
+}
+
+.header__logo {
+    margin-left: 92px;
+}
+
+.menu__list {
+    padding-right: 85px;
 }
 
 .menu__list {
@@ -87,7 +96,7 @@ body {
     font-weight: 200;
     line-height: 80px;
     letter-spacing: -0.02em;
-   
+
 
 }
 
@@ -98,7 +107,7 @@ body {
     font-weight: 600;
     line-height: 84px;
     letter-spacing: -0.02em;
-    text-align: center;
+
 
 }
 
@@ -112,10 +121,11 @@ body {
 }
 
 
-/* Section two */
+/* Section two "Clients"*/
 
 .clients {
     padding-bottom: 228px;
+
 }
 
 .clients .container {
@@ -124,11 +134,15 @@ body {
 
 .clients__logo {
     display: flex;
-    column-gap: 135px;
+    column-gap: 80px;
+    justify-content: center;
+
 }
 
 .clients___text {
     padding-bottom: 96px;
+    margin-left: 92px;
+
 }
 
 .clients___txt {
@@ -145,4 +159,53 @@ body {
     font-size: 40px;
     font-weight: 600;
     line-height: 60px;
+}
+
+.airbnb:active,
+.google:active,
+.microsoft:active,
+.fedex:active {
+    position: relative;
+    top: 2px
+}
+
+/* Section three "Portfolio"*/
+
+
+.portfolio {
+    margin-left: 92px;
+}
+
+.portfolio__title {
+    text-align: left;
+    color: rgba(227, 228, 230, 0.55);
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 80px;
+    letter-spacing: -0.02em;
+
+    margin-bottom: 97px;
+
+
+
+}
+
+.portfolio__title span {
+
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: -0.02em;
+
+}
+
+.portfolio__img {
+    border-radius: 16px;
+    height: 465px;
+    width: 580px;
+    left: 0px;
+    top: 0px;
+
+
 }
