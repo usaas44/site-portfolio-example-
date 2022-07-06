@@ -294,38 +294,46 @@ body {
     top: 2px;
 }
 
+/* Section four "About me" */
 
 
 
 
-
-/*
-.contacts-button {
-    text-align: center;
-    background-color: #070707;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: 0em;
-    padding: 7px 22px;
-    border-radius: 30px;
-    width: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
+.aboutMe__text {
+    padding-top: 700px;
+    display: flex;
 }
 
-.btn {
+.about__txt {
+    width: 546px;
+}
+
+.about__header {
     color: white;
-    transition: 0.8s linear;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-align: left;
+
 }
 
-.btn:hover {
-    color: aqua;
+.about__mainText {
+    text-align: left;
+    color: rgba(227, 228, 230, 0.55);
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 
-.btn:active {
-    position: relative;
-    top: 1px;
+.about__mainText span {
+    color: white;
+    font-weight: 600;
 }
+
+.about__img {
+    border-radius: 16px;
+}
+
