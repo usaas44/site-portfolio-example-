@@ -75,7 +75,25 @@ body {
     top: 2px;
 }
 
-/* Section one*/
+
+
+.burger___img {
+    height: 45px;
+    width: 45px;
+}
+
+
+.burger__menu {
+    display: none;
+}
+
+.burger__menu:active {
+position: relative;
+top: 2px;
+}
+
+
+/* Section Hero*/
 
 
 .hero {

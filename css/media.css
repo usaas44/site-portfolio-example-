@@ -1,0 +1,46 @@
+/* Header */
+
+
+@media (max-width: 750px) {
+.menu__list {
+    display: none;
+}
+.burger__menu {
+    display: block;
+    padding-right: 40px;
+}
+.header__logo {
+    margin-left: 15px;
+}
+}
+
+/* Section Hero*/
+
+@media (max-width: 800px) {
+
+    .hero {
+        
+        row-gap: 50px;
+        padding-top: 150px; 
+    }
+.hero__title {
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 50px;
+    
+}
+
+.hero__title span {
+
+    color: white;
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 50px;
+}
+.arrow__down__img {
+    padding-bottom: 90px;
+}
+
+}
+
+/* Section three "Portfolio"*/
