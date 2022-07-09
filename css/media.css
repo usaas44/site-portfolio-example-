@@ -2,16 +2,18 @@
 
 
 @media (max-width: 750px) {
-.menu__list {
-    display: none;
-}
-.burger__menu {
-    display: block;
-    padding-right: 40px;
-}
-.header__logo {
-    margin-left: 15px;
-}
+    .menu__list {
+        display: none;
+    }
+
+    .burger__menu {
+        display: block;
+        padding-right: 40px;
+    }
+
+    .header__logo {
+        margin-left: 15px;
+    }
 }
 
 /* Section Hero*/
@@ -19,28 +21,91 @@
 @media (max-width: 800px) {
 
     .hero {
-        
+
         row-gap: 50px;
-        padding-top: 150px; 
+        padding-top: 150px;
     }
-.hero__title {
-    font-size: 30px;
-    font-weight: 100;
-    line-height: 50px;
+
+    .hero__title {
+        font-size: 30px;
+        font-weight: 100;
+        line-height: 50px;
+
+    }
+
+    .hero__title span {
+
+        color: white;
+        font-size: 34px;
+        font-weight: 300;
+        line-height: 50px;
+    }
+
+    .arrow__down__img {
+        padding-bottom: 90px;
+    }
+
+}
+
+/* Section two "Clients"*/
+
+@media (max-width: 1100px) {
+    .clients__logo {
+        column-gap: 20px;
+    }
+}
+
+@media (max-width: 930px) {
+    .clients__logo {
+        column-gap: 10px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .client__img {
+        width: 145px;
+        height: 135px;
+    }
+
+    .clients__logo {
+        column-gap: 20px;
+    }
+}
+
+@media (max-width: 670px) {
+
+    .client__img {
+        width: 105px;
+        height: 100px;
+    }
+
+    .clients__logo {
+        column-gap: 10px;
+    }
+}
+
+@media (max-width: 800px) {
     
-}
+    .clients___text {
+        padding-bottom: 30px;
+        margin-left: 20px;
+    }
 
-.hero__title span {
+    .clients___txt {
+        font-size: 26px;
+        font-weight: 80;
+        line-height: 30px;
 
-    color: white;
-    font-size: 34px;
-    font-weight: 300;
-    line-height: 50px;
-}
-.arrow__down__img {
-    padding-bottom: 90px;
-}
+    }
+
+    .clients___txt span {
+
+        color: white;
+        font-size: 28px;
+        font-weight: 150;
+        line-height: 40px;
+    }
+
 
 }
-
-/* Section three "Portfolio"*/
