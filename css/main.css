@@ -297,12 +297,15 @@ body {
 /* Section four "About me" */
 
 
-
+.aboutMe {
+    margin-bottom: 210px;
+}
 
 .about__container {
     padding-top: 300px;
     display: flex;
     align-items: center;
+   
 }
 
 .about__txt {
@@ -368,4 +371,55 @@ body {
 .about__img__right {
     height: 400px;
     border-radius: 16px;
+}
+
+/* Footer */
+
+.heading___footer {
+font-size: 50px;
+font-weight: 400;
+line-height: 84px;
+letter-spacing: -0.02em;
+text-align: center;
+color: rgba(227, 228, 230, 0.55);
+}
+
+.heading___footer span {
+color: white;
+font-size: 56px;
+font-weight: 600;
+}
+
+.footer___text {
+font-size: 18px;
+font-weight: 300;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 73px;
+    margin-top: 74px;
+    margin-bottom: 94px;
+}
+
+.footer___subtext {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(227, 228, 230, 0.55);
+    margin-bottom: 45px;
+}
+.footer___subtext span{
+color: white;
+font-size: 20px;
+
 }
