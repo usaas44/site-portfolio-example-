@@ -195,6 +195,7 @@
         font-size: 30px;
         font-weight: 100;
     }
+
     .portfolio__title span {
         font-size: 32px;
         font-weight: 100;
@@ -224,13 +225,117 @@
         line-height: 12px;
     }
 }
+
 @media (max-width: 630px) {
     .portfolio__img {
         height: 310px;
         width: 430px;
         left: 0px;
         top: 0px;
-    
-    
+
+
     }
+}
+
+/* Section four "About me" */
+
+@media (max-width: 1220px) {
+    .about__container {
+        padding-top: 200px;
+        display: block;
+        align-items: center;
+
+    }
+
+    .about__images {
+        display: flex;
+        justify-content: center;
+        column-gap: 40px;
+
+    }
+
+    .about__txt {
+        width: auto;
+        padding-left: 0px;
+    }
+
+
+    .about__header,
+    .about__mainText {
+        text-align: center;
+    }
+
+    .about__img,
+    .about__img__right {
+        height: 400px;
+        width: 260px;
+    }
+
+}
+
+@media (max-width: 1030px) {
+    .about__container {
+        padding-top: 150px;
+
+    }
+
+    .about__images {
+
+        column-gap: 20px;
+
+    }
+
+    .about__header {
+        font-size: 16px;
+        font-weight: 350;
+        line-height: 22px;
+
+
+    }
+
+    .about__mainText {
+
+        font-size: 20px;
+        font-weight: 150;
+        line-height: 38px;
+
+    }
+
+    .about__mainText span {
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+}
+
+@media (max-width: 966px) {
+    .about__container {
+        padding-top: 100px;
+
+    }
+
+    .about__images {
+        column-gap: 10px;
+
+    }
+
+  
+
+}
+
+@media (max-width: 939px) {
+    .about__images {
+        display: block;
+
+    }
+
+    .about__img,
+    .about__img__right {
+        display: block;
+        margin: 15px auto;
+        height: 340px;
+        width: 300px;
+    }
+
+    
 }
