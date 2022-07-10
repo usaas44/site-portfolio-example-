@@ -339,3 +339,22 @@
 
     
 }
+
+/* Footer */ 
+
+@media (max-width: 800px) {
+    .heading___footer {
+        font-size: 40px;
+        font-weight: 200;
+        line-height: 44px;
+        
+        }
+        
+        .heading___footer span {
+        
+        font-size: 44px;
+        font-weight: 300;
+        }
+}
+
+
