@@ -23,22 +23,26 @@ body {
 
 .header {
     padding: 35px 0;
+    
 }
 
 .header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 
 
 }
 
 .header__logo {
     margin-left: 92px;
+    
 }
 
 .menu__list {
     padding-right: 85px;
+    
 }
 
 .menu__list {
